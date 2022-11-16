@@ -5,9 +5,9 @@ body {
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px
-    font-weight: 700;
-    line-height: 1,19
-    text-align: left;
+    font-weight 700;
+    line-height 1.19;
+    text-align left;
 }
 
 .main-information {
@@ -18,13 +18,13 @@ body {
         text-align: left;
       }
       
-.black {colour: #000000
+.black {color: #000000
 }
 .blue {color: #2196F3;
 }
-.grey {colour: #757575
+.grey {color: #757575
 }
-.dark-grey {colour: #212121
+.dark-grey {color: #212121
 }
 
 
