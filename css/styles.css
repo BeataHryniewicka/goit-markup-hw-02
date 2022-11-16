@@ -2,14 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #E5E5E5;
 }
-
-.main-information {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,142;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px
@@ -17,6 +9,15 @@ body {
     line-height: 1,19
     text-align: left;
 }
+
+.main-information {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,142;
+        letter-spacing: 0.02em;
+        text-align: left;
+      }
+      
 .black {colour: #000000
 }
 .blue {color: #2196F3;
