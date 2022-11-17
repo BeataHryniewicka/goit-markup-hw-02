@@ -55,7 +55,6 @@ h2 {
     color: #212121
 }
 p {
-    font-weight: 400;
     font-size: 16px;
     color: #757575;
 }
@@ -79,7 +78,9 @@ p {
     letter-spacing: 0.03em;
     background: #F5F4FA;
     color: #212121;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.shadow {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 .team h3 {
     font-weight: 500;
@@ -92,6 +93,10 @@ p {
 .down-footer {
     background:#2F303A;
 }
+
+
+
+
 
 
 .kind-of-services {
