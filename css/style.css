@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #E5E5E5;
+    background: #FFFFFF;
 }
 .logo {
     font-weight: 700;
@@ -26,6 +26,23 @@ body {
 .grey {color: #757575
 }
 .dark-grey {color: #212121
+}
+.hero-section {
+    background-color:#2F303A;
+}
+.hero-section h1 {
+    font-weight: 900; 
+    font-size: 44px;
+    line-height: 1,363;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+.hero-section p {
+
+}
 }
 .articles {
     font-size: 14px;
