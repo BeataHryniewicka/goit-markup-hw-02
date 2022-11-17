@@ -8,7 +8,6 @@ body {
     line-height: 1,19;
     letter-spacing: 0.02em;
     text-align: left;
-
 }
 
 .main-information {
@@ -27,40 +26,46 @@ body {
 }
 .dark-grey {color: #212121
 }
-.hero-section {
-    background-color:#2F303A;
-}
 .hero-section h1 {
     font-weight: 900; 
     font-size: 44px;
     line-height: 1,363;
     text-transform: uppercase;
-    text-align: center;
+    text-align:center;
     color: #FFFFFF;
-
-
+    background-color:#2F303A;
 }
-.hero-section p {
-
-}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,875;
+    display: inline-block;
+    /* inline-block nie działa*/
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
+    background-color:#2196F3;
+    /*skasowanie font-size: 44px; poniżej powoduje zniknięcie niebieskiego tła w przycisku, coś się nadpisuje ???*/
+    font-size: 44px;
 }
 .articles {
     font-size: 14px;
     letter-spacing: 0.03em;
-    text-align: left
+    text-align: left;   
 }
-
 .articles h3 {
     font-weight: 700;
     line-height: 1,142;
     text-transform: uppercase;
     color: #212121
 }
-.articles p {
+.articles p { 
     font-weight: 400;
+    font-size: 14px;
     line-height: 1,714;
     color: #757575;
 }
+
+
 
 
 
