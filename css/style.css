@@ -1,9 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #FFFFFF;
+    background-color: var(--brand-color-blue)
 }
 :root {
-    --brand-color: #212121;
+    --brand-color-dark-grey: #212121;
+    --brand-color-white: #FFFFFF;
+    --brand-color-grey: #757575;
+    --brand-color-blue:  #2196F3;
+    --brand-color-black: #000000;
+    --brand-color-bacground-black: #2F303A;
 }
 
 .logo {
@@ -27,23 +32,23 @@ body {
 }
 .link:hover,
 .link:focus {
-    color:  #2196F3;
+    color: var(--brand-color-blue)
 }
 .contact {
-    color: #757575 
+    color:(--brand-color-grey); 
 }  
 .contact:hover,
 .contact:focus {
-    color: #2196F3; 
+    color: var(--brand-color-blue);
 }
 
-.black {color: #000000
+.black {color: var(--brand-color-black);
 }
-.blue {color: #2196F3;
+.blue {color: var(--brand-color-blue);
 }
-.grey {color: #757575
+.grey {color: var(--brand-color-grey);
 }
-.white {color: #FFFFFF;
+.white {color: var(--brand-color-white);
 }
 .hero-section h1 {
     font-weight: 900; 
@@ -51,16 +56,16 @@ body {
     line-height: 1.363;
     text-transform: uppercase;
     text-align: center;
-    color: #FFFFFF;
-    background-color:#2F303A;
+    color: var(--brand-color-white);
+    background-color:
 }
 .hero-section-btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
     letter-spacing: 0.06em;
-    background-color:#2196F3;
+    background-color: var(--brand-color-blue);
     text-align: center;
     align-items: center;
     letter-spacing: 0.06em;
@@ -70,11 +75,11 @@ h2 {
     font-size: 36px;
     line-height: 1.166;
     text-align: center;
-    color: (--brand-color);
+    color: var(--brand-color-dark-grey);
 }
 p {
     font-size: 16px;
-    color: #757575;
+    color: var(--brand-color-grey)
 }
 .articles {
     font-size: 14px;
@@ -85,7 +90,7 @@ p {
     font-weight: 700;
     line-height: 1.142;
     text-transform: uppercase;
-    color: (--brand-color)
+    color: var(--brand-color-grey)
 }
 .articles p { 
     font-size: 14px;
@@ -94,8 +99,8 @@ p {
 .team {
     text-align: center;
     letter-spacing: 0.03em;
-    background: #F5F4FA;
-    color: (--brand-color)
+    background: var(--brand-color-white)
+    color: var(--brand-color-dark-grey)
 }
 .team-shadow {
     box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -109,10 +114,6 @@ p {
 .team p {
     line-height: 1.187;
 }
-.down-footer {
-    background:#2F303A;
-}
-
 
 .filters {
     font-weight: 500;
@@ -125,12 +126,12 @@ p {
 }
 .filters :hover,
 .filters :focus {
-        background-color: #2196F3;
-        color:  #FFFFFF;
+        background-color: var(--brand-color-blue);
+        color: var(--brand-color-white);
         cursor: pointer;
 }
 .bacground-footer {
-    background: #2F303A;
+    background: var(--brand-color-bacground-black);
 }
 
 .kind-of-services {
