@@ -140,7 +140,7 @@ p {
         color: var(--brand-color-white);
         cursor: pointer;
 }
-.footer {
+.footer-contact {
     background: var(--brand-color-background-black);
     line-height: 1.714; 
     text-decoration: none;
@@ -149,10 +149,10 @@ p {
     letter-spacing: 0.02em; 
 }
 
-.footer-ligh {
+.footer-contact-ligh {
     filter: opacity(60%);    
 }
-.footer-ligh-mail {
+.footer-contact-ligh-mail {
     filter: opacity(60%);
     text-decoration: underline;
 }
