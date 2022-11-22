@@ -140,19 +140,23 @@ p {
         color: var(--brand-color-white);
         cursor: pointer;
 }
-.bacground-footer {
-    line-height: 1.714;  
+.footer {
     background: var(--brand-color-background-black);
+    line-height: 1.714; 
     text-decoration: none;
     color: var(--brand-color-white);
-}
-.bacground-footer-ligh-mail {
-    filter: opacity(60%);
-}
-.bacground-footer-ligh {
-        filter: opacity(60%);
+    text-align: left;
+    letter-spacing: 0.02em; 
 }
 
+.footer-ligh {
+        filter: opacity(60%);    
+}
+.footer-ligh-mail {
+    filter: opacity(60%);
+    text-decoration: underline;
+}
+   
 .kind-of-services {
     font-size: 18px;
     font-weight: 700;
