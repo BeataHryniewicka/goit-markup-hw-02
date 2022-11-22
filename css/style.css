@@ -28,6 +28,20 @@ body {
 .link-logo:focus {
     color: var(--brand-color-blue)
 }
+.style {
+    list-style: none;
+}
+.link {
+font-weight: 500;
+line-height: 1,142;
+letter-spacing: 0.02em;
+text-align: left;
+text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: var(--brand-color-blue);
+}
 .contact {
     color: var(--brand-color-grey);
     text-decoration: none;
@@ -129,16 +143,13 @@ p {
 .bacground-footer {
     line-height: 1.714;  
     background: var(--brand-color-background-black);
-    color: var(--brand-color-white);
     text-decoration: none;
+    color: var(--brand-color-white);
 }
 .bacground-footer-ligh-mail {
-    color: var(--brand-color-white);
     filter: opacity(60%);
 }
 .bacground-footer-ligh {
-        text-decoration: none;
-        color: var(--brand-color-white);
         filter: opacity(60%);
 }
 
