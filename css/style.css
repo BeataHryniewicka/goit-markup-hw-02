@@ -62,10 +62,10 @@ body {
 .white {color: var(--brand-color-white);
 }
 /* wrócić, wszystkie sekcje mają ciemny background*/
-section {
+.hero-background {
     background-color:var(--brand-color-background-black);
 }
-.hero-tittle h1 {
+.hero-tittle {
     font-weight: 900; 
     font-size: 44px;
     line-height: 1.363;
@@ -100,16 +100,11 @@ section {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-h2 {
-    font-weight: 700;
+.second-tittles {
     font-size: 36px;
+    font-weight: 700;
     line-height: 1.166;
     text-align: center;
-}
-p {
-    font-size: 16px;
-    text-align: left;
-    color: var(--brand-color-grey);
 }
 .articles h3 {
     font-weight: 700;
@@ -117,12 +112,14 @@ p {
     text-transform: uppercase;
 }
 .articles p { 
+    font-size: 16px;
+    text-align: left;
+    color: var(--brand-color-grey);
     line-height: 1.714;
 }
 .team {
     text-align: center;
     background-color: var(--brand-color-light-grey);
-   
 }
 .team-shadow {
     box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -135,6 +132,7 @@ p {
 }
 .team p {
     line-height: 1.187;
+    font-size: 16px;
 }
 
 .filters-btn {
