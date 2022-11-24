@@ -35,10 +35,11 @@ body {
     font-weight: 500;
     line-height: 1,142;
     letter-spacing: 0.02em;
-    text-align: left;   
-}
-.link-current {  
+    text-align: left;
     text-decoration: none;
+}   
+.link-current {  
+    color: var(--brand-color-blue);    
 }
 .link-current:hover,
 .link-current:focus {
