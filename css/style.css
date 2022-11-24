@@ -143,7 +143,7 @@ body {
     text-align: center;
     cursor: pointer;
 }
-.filters-btn:hover
+.filters-btn:hover,
 .filters-btn:focus {
         background-color: var(--brand-color-blue);
         color: var(--brand-color-white);
