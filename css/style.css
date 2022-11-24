@@ -61,7 +61,6 @@ body {
 }
 .white {color: var(--brand-color-white);
 }
-/* wrócić, wszystkie sekcje mają ciemny background*/
 .hero-background {
     background-color:var(--brand-color-background-black);
 }
@@ -149,28 +148,40 @@ body {
         color: var(--brand-color-white);
         cursor: pointer;
 }
+address {
+    font-style: normal
+}
 .footer-contact {
     background-color: var(--brand-color-background-black);
     line-height: 1.714; 
-    text-decoration: none;
-    color: var(--brand-color-white);
     text-align: left;
     letter-spacing: 0.02em; 
 }
 .footer-contact-bright {
-    text-decoration: none;
     color: var(--brand-color-white);
+    text-decoration: none;
+}
+.footer-contact-bright:hover,
+.footer-contact-bright:focus { 
+    color: var(--brand-color-blue);
 }
 .footer-contact-ligh {
     filter: opacity(60%); 
     text-decoration: none;
-    color: var(--brand-color-white);   
+    color: var(--brand-color-white);
+}
+.footer-contact-light:hover,
+.footer-contact-light:focus { 
+    color: var(--brand-color-blue);  
 }
 .footer-contact-ligh-mail {
     filter: opacity(60%);
     color: var(--brand-color-white);   
 }
-   
+.footer-contact-light-mail:hover,
+.footer-contact-light-mail:focus { 
+    color: var(--brand-color-blue);
+} 
 .kind-of-services {
     font-size: 18px;
     font-weight: 700;
