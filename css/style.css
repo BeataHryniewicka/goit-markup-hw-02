@@ -165,7 +165,7 @@ address {
 .footer-contact-bright:focus { 
     color: var(--brand-color-blue);
 }
-.footer-contact-ligh {
+.footer-contact-light {
     filter: opacity(60%); 
     text-decoration: none;
     color: var(--brand-color-white);
@@ -174,7 +174,7 @@ address {
 .footer-contact-light:focus { 
     color: var(--brand-color-blue);  
 }
-.footer-contact-ligh-mail {
+.footer-contact-light-mail {
     filter: opacity(60%);
     color: var(--brand-color-white);   
 }
