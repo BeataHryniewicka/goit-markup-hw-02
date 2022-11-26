@@ -20,9 +20,10 @@ body {
     font-family: Raleway;
     font-weight: 700;
     text-decoration: none;
-    line-height: 1,192;
+    line-height: 1,19;
     letter-spacing: 0.02em;
     text-align: left;
+    font-size: 26px;
 }
 .link-logo:hover,
 .link-logo:focus {
@@ -33,11 +34,14 @@ body {
 }
 .nav-link {
     font-weight: 500;
-    line-height: 1,142;
+    line-height: 1,14;
     letter-spacing: 0.02em;
-    text-align: left;
     text-decoration: none;
-}   
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--brand-color-blue)
+    } 
 .link-current {  
     color: var(--brand-color-blue);    
 }
@@ -50,6 +54,7 @@ body {
     text-decoration: none;
     text-align: left;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }  
 .contact:hover,
 .contact:focus {
@@ -68,7 +73,7 @@ body {
 .hero-tittle {
     font-weight: 900; 
     font-size: 44px;
-    line-height: 1.363;
+    line-height: 1.36;
     text-transform: uppercase;
     text-align: center;
     color: var(--brand-color-white);
@@ -77,12 +82,12 @@ body {
 .hero-btn {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.87;
     color: var(--brand-color-white);
     letter-spacing: 0.06em;
     background-color: var(--brand-color-blue);
-    letter-spacing: 0.06em;
     cursor: pointer;
+    font-family: inherit;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
@@ -103,19 +108,20 @@ body {
 .second-tittles {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.166;
+    line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .articles h3 {
     font-weight: 700;
-    line-height: 1.142;
+    line-height: 1.14;
     text-transform: uppercase;
+    font-size: 14px;
 }
 .articles p { 
-    font-size: 16px;
     text-align: left;
     color: var(--brand-color-grey);
-    line-height: 1.714;
+    line-height: 1.71;
 }
 .team {
     text-align: center;
@@ -128,20 +134,25 @@ body {
 .team h3 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.187;
+    line-height: 1.18;
 }
 .team p {
-    line-height: 1.187;
+    line-height: 1.18;
     font-size: 16px;
+    color: var(--brand-color-grey);
+    letter-spacing: 0.03em;
 }
 
 .filters-btn {
     font-weight: 500;
     background-color: var(--brand-color-light-grey);
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.62;
     text-align: center;
     cursor: pointer;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+  
 }
 .filters-btn:hover,
 .filters-btn:focus {
@@ -154,7 +165,7 @@ address {
 }
 .footer-contact {
     background-color: var(--brand-color-background-black);
-    line-height: 1.714; 
+    line-height: 1.71; 
     text-align: left;
     letter-spacing: 0.02em; 
 }
@@ -193,6 +204,7 @@ address {
 
 .group-of-services {
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.87;
     text-align: left;
+    color: var(--brand-color-grey);
     }
